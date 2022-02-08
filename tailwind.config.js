@@ -1,13 +1,14 @@
-const Color = require('color');
+const Color = require('color')
 
-const lighten = (color, value) => Color(color).lighten(value).hex().toString();
-const darken = (color, value) => Color(color).darken(value).hex().toString();
+const lighten = (color, value) => Color(color).lighten(value).hex().toString()
+const darken = (color, value) => Color(color).darken(value).hex().toString()
 
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx}',
     './src/components/**/*.{js,ts,jsx,tsx}',
-    './src/containers/**/*.{js,ts,jsx,tsx}'
+    './src/containers/**/*.{js,ts,jsx,tsx}',
+    './src/modules/**/*.{js,ts,jsx,tsx}'
   ],
   mode: process.env.NODE_ENV ? 'jit' : undefined,
   theme: {
@@ -65,4 +66,4 @@ module.exports = {
     extend: {}
   },
   plugins: []
-};
+}
