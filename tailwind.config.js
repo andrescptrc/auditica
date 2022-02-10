@@ -51,7 +51,7 @@ module.exports = {
           DEFAULT: '#72757e',
           dark: darken('#72757e', 0.08)
         },
-        'sonic-silver': {
+        'space-cadet': {
           light: lighten('#2E3A59', 0.08),
           DEFAULT: '#2E3A59',
           dark: darken('#2E3A59', 0.08)
